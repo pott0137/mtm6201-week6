@@ -52,7 +52,7 @@ a[href='#'] {
 
 /* ^= is to check if value begins with */
 a[href^="http"] {
-    border-left: 4px solid #var(var(--second-color));
+    border-left: 4px solid var(--second-color);
     padding-left: 1rem;
 }
 
